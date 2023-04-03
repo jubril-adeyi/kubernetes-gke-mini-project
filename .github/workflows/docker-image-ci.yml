@@ -27,4 +27,4 @@ jobs:
         file: Dockerfile
         repoOwner: ${{ secrets.DOCKER_USERNAME }}
         repository: repo1
-        tag: 1.0.0
+        tag: web-app
