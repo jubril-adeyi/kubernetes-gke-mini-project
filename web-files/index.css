@@ -1,0 +1,107 @@
+/* nav bar*/
+a{
+    font-family: sans-serif;
+}
+.nav-list{ 
+    margin: 0 0;
+    padding: 0 0;
+    overflow: hidden;
+    background-color: #000000b9;
+}
+li.nav{float: left;
+    padding: 6px;
+}
+li.nav a{
+display: block; 
+color: white;
+text-align:center;
+padding: 8px;
+text-decoration:solid ;}
+li.nav a:hover {background-color: grey;
+}
+li.nav{ border-right: 1px solid white;
+}
+/* style */
+*{
+    border: 0px;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+:root{
+    --header-font:Tahoma;
+    --content-font: sans-serif;
+}
+h3{
+    padding: 8px;
+    font-family:var(--header-font);
+}
+p{
+    font-style: var(--content-font);
+}
+.avi{
+    padding:16px;
+}
+.avatar{
+    display:block ;
+    width:200px;
+    height: 200px;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 8px;
+    border:4px;
+}
+.about-me{
+    max-width :1000px; 
+    margin: 0 auto;
+    text-align: center;
+}
+.about-grid1{
+     display: grid;
+     grid-template-columns: 50% 50%;
+     padding: 40px;
+     column-gap: 20px;
+     grid-template-rows: 1fr,1fr;
+}
+.about-grid2{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   padding: 40px;
+   grid-template-rows: 100%;
+}
+ul{
+    list-style: none;
+}
+.education{
+    font-size: small;
+    font-family: var(--content-font);
+}
+.job{
+    font-size: small;
+    font-family: var(--content-font)
+}
+.hobbies{
+    font-size: small;
+    font-family: var(--content-font)
+}
+.skills{
+    font-size:small ;
+    font-family: var(--content-font)
+}
+.bio{
+    font-size: small;
+    font-family: var(--content-font)
+}
+.goals{
+    font-size: small;
+    font-family: var(--content-font)
+}
+li{
+    padding: 8px;
+}
+footer{
+    text-align: center;
+    font-weight: lighter;
+    color: grey;
+    margin: 48px auto 0 auto;
+}

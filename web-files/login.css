@@ -1,0 +1,89 @@
+/* nav bar*/
+a{
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+}
+.nav-list{ 
+    margin: 0 0;
+    padding: 0 0;
+    overflow: hidden;
+    background-color: #000000b9;
+}
+li.nav{float: left;
+    padding: 6px;
+}
+li.nav a{display: block; 
+color: white;
+text-align:center;
+padding: 8px;
+text-decoration:solid;}
+li.nav a:hover {background-color: grey;
+}
+li.nav{ border-right: 1px solid white;
+}
+/* login style*/
+*{
+    margin: 0 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 16px 0;
+}
+h2{
+    text-align: center;
+    font-weight: 200;
+    padding: 16px;
+}
+.container{
+    width: 1000px;
+    height: 500px;
+    max-width: 100%;
+    margin: 0 auto ;
+}
+.form{
+    width: 50%;
+    margin: 40px auto;
+}
+:root{
+    --custom-color:grey;
+    --padding : 20px;
+    --medium-font-size:1.2em;
+    --big-font-size:2em;
+    --input-padding:16px 16px;
+    --border-radius:10px;
+    --margin-bottom: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group-label{
+    font-size: var(--medium-font-size);
+}
+input{
+    padding: var(--input-padding);
+    border-radius: var(--border-radius);
+    margin-bottom: var(--margin-bottom);
+    margin-top: 16px;
+}
+.button{
+    background-color: grey ;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size:var(--medium-font-size) ;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: rgb(109, 108, 108);
+}
+.button:focus{
+    outline-color: grey;
+}
+input:focus{
+    outline-color: grey;
+}
