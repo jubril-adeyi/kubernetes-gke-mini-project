@@ -28,3 +28,7 @@ jobs:
         repoOwner: ${{ secrets.DOCKER_USERNAME }}
         repository: repo1
         tag: web-app
+
+    - name: image built and published 
+      run: echo "image built and published"
+      shell: bash 
