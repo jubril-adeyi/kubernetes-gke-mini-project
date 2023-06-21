@@ -1,4 +1,8 @@
 # kubernetes-gke-mini-project
 
-This repo contains a Dockerfile to create an image for customized nginx web server to host a website, with the required file for the website located in /web-files directory. 
-Also yaml manifest files for the deployment of the image created as a container using Google kubernetes Engine (GKE).
+This repo contains the following : 
+* Dockerfile to create an image for customized nginx web server to host a simple webapp.
+* The  required files for the web-app located in `/web-files` directory. 
+* Kubernetes manifest files for the kubernetes deployment and service for the webaapp packaged into a  docker image.
+
+
